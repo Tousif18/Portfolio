@@ -1,31 +1,29 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
   color: #333;
 }
 
 header {
+  background: #007bff;
+  padding: 1rem;
   text-align: center;
-  padding: 2rem;
-  background-color: #007bff;
-  color: white;
 }
 
-nav ul {
+header nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin: 0;
   padding: 0;
-  background: #333;
 }
 
-nav ul li {
+header nav ul li {
   margin: 0 1rem;
 }
 
-nav ul li a {
+header nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -33,11 +31,33 @@ nav ul li a {
 
 section {
   padding: 2rem;
+  text-align: center;
+}
+
+#home {
+  background: #f4f4f9;
+  padding: 5rem 2rem;
+}
+
+.skill-grid, .project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.skill, .project-card {
+  background: #f4f4f9;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
 }
 
 footer {
-  text-align: center;
-  padding: 1rem;
   background: #333;
   color: white;
+  padding: 1rem;
+  text-align: center;
 }
